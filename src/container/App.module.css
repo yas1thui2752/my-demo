@@ -2,7 +2,37 @@
   text-align: center;
 }
 
-.App-logo {
+/* .red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.Button{
+  background-color: green;
+  color: black;
+  font: inherit;
+  border: 1px solid #ccc;
+  padding: 8px;
+  cursor: pointer;
+}
+  
+.Button:hover  {
+  background-color : lightgreen;
+  color: black;
+}
+
+.Button.Red {
+  background-color: red;
+}
+
+.Button.Red:hover {
+  background-color: salmon;
+} */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +65,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
