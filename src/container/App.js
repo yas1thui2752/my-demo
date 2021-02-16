@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import classes from './App.module.css';
 
-//import styled from 'styled-components';
-
-//import Radium, { StyleRoot } from 'radium';
-
 //import Person from '../components/Persons/Person/Person';
 
 import Persons from '../components/Persons/Persons';
@@ -32,7 +28,7 @@ class App extends Component {
       { id:'agadg1', name: 'some', study:'phd'},
       { id:'qwerq3', name: 'angular', study: 'masters'},
       { id:'zxvcx3', name: 'react', study:'mba'},
-      { id:'sdfcx3', name: 'ADA', study:'sherwin'}
+      { id:'sdfcx3', name: 'ADA', study:'WCAG 2.0'}
     ],
     showPersons: false
   }
@@ -98,20 +94,6 @@ class App extends Component {
   }
 
   render(){
-
-    // const someStyles = {
-    //   backgroundColor: 'green',
-    //   color:'black',
-    //   font: 'inherit',
-    //   border: '1px solid #ccc',
-    //   padding: '8px',
-    //   cursor: 'pointer',
-    //   // in order to use psudeo styles import radium package and since it starts witk colon(:) so we pass it as string in b/w quotes ('')
-    //   ':hover' : {
-    //     backgroundColor : 'lightgreen', 
-    //     color: 'black'
-    //   }
-    // };
 
     //adding JS condition before return and placing persons div in the if condition.
     var persons = null;
@@ -190,31 +172,3 @@ class App extends Component {
 
 export default App;
 
-// {/*  <StyleRoot> </StyleRoot> is using radium package then place these styleroot tags above div */}
-//             {/* if using media queries then wrap entire pplication in StyleRoot tags */}
-//             {/* Moved below code into cockpit component
-//             <h1 className="App-header">
-            
-//             <a
-//               className="App-link"
-//               href="https://reactjs.org"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//             >
-//               Learn Reactjs
-//             </a>
-//             </h1>
-//             <p className={cssClasses.join(' ')}>start from here</p>
-//             {/* binding onclick event to change text using function return. if decleared in the same line we can skip return statement */}
-//             {/* <button className={btnClass.join(' ')}
-//               onClick={ this.togglePersonHandler }>switch person</button>  */}
-
-//               {/* if using styled-components and decleared styles in sperate componet then use that here as <ButtonStyles> </ButtonStyles> with anyattr = {this.state.showPersons} */}
-
-//             {/* if you need to add traditional if condition in JSX its not possible. So, you can access JS in jsx by adding code in b/w {}
-//             so add a ternary condition inside curly brackets, inorder to execute js conditions. */}
-//             {/* { this.state.showPersons ?
-//               <div>some html code to display</div> : null
-//             } */}
-          
-//           {/* refering persond variable in here to display */}

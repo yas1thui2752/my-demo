@@ -38,7 +38,7 @@ class Persons extends Component {
                     study={person.study} 
                     key = {person.id}
                     changed = {(event) => this.props.changed(event, person.id)} 
-                />
+                > props.childern here</Person>
             ); 
         });
     }
