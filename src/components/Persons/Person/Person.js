@@ -11,13 +11,14 @@ const person = (props) => {
             {/* If you want to states method in to a staless or a function component then refer that as html attribute and in the functional componet 
             refer its attribute name(click --> name of attr in app.js file  */}
 
-            <p onClick={props.click}>i'm {props.name} class in {props.study} </p>
+            <p tabindex='0' onClick={props.click}>I'm in {props.name} class in {props.study} </p>
 
             <span>{props.children}</span> 
             {/* something present in 2nd person tag can be accessed by childern property */}
             <br />
             
-            <input type="text" onChange={props.changed} value={props.name} />
+            <label id='demo1'>Enter Something : </label>
+            <input for='demo1' type="text" onChange={props.changed} value={props.name} />
            
         </div>
     );

@@ -6,19 +6,7 @@ import classes from './App.module.css';
 import Persons from '../components/Persons/Persons';
 import Cockpit from '../components/Cockpit/Cockpit';
 
-// const ButtonStyles = styled.button`
-//   background-color: ${props => props.anyattr ? 'red' : 'green'};
-//   color: black;
-//   font: inherit;
-//   border: 1px solid #ccc;
-//   padding: 8px;
-//   cursor: pointer;
 
-//   &:hover  {
-//     background-color : ${props => props.anyattr ? 'salmon' : 'lightgreen'};
-//     color: black;
-//   }
-// `;
 //passing props in the bacground-color with anyattr as attribute on the StyledButton component checks the showPersons value in states and display red if true
 
 
@@ -27,7 +15,7 @@ class App extends Component {
     persons : [
       { id:'agadg1', name: 'some', study:'phd'},
       { id:'qwerq3', name: 'angular', study: 'masters'},
-      { id:'zxvcx3', name: 'react', study:'mba'},
+      { id:'zxvcx3', name: 'react', study:'udemy'},
       { id:'sdfcx3', name: 'ADA', study:'WCAG 2.0'}
     ],
     showPersons: false
